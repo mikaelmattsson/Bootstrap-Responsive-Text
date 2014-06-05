@@ -1,0 +1,360 @@
+.text-xs-3 {
+  font-size: 25%; }
+
+.text-xs-4 {
+  font-size: 33.33333%; }
+
+.text-xs-5 {
+  font-size: 41.66667%; }
+
+.text-xs-6 {
+  font-size: 50%; }
+
+.text-xs-7 {
+  font-size: 58.33333%; }
+
+.text-xs-8 {
+  font-size: 66.66667%; }
+
+.text-xs-9 {
+  font-size: 75%; }
+
+.text-xs-10 {
+  font-size: 83.33333%; }
+
+.text-xs-11 {
+  font-size: 91.66667%; }
+
+.text-xs-12 {
+  font-size: 100%; }
+
+@media (max-width: 576px) {
+  .text-xs-3 {
+    font-size: 18.75%; }
+
+  .text-xs-4 {
+    font-size: 25%; }
+
+  .text-xs-5 {
+    font-size: 31.25%; }
+
+  .text-xs-6 {
+    font-size: 37.5%; }
+
+  .text-xs-7 {
+    font-size: 43.75%; }
+
+  .text-xs-8 {
+    font-size: 50%; }
+
+  .text-xs-9 {
+    font-size: 56.25%; }
+
+  .text-xs-10 {
+    font-size: 62.5%; }
+
+  .text-xs-11 {
+    font-size: 68.75%; }
+
+  .text-xs-12 {
+    font-size: 75%; } }
+@media (max-width: 384px) {
+  .text-xs-3 {
+    font-size: 12.5%; }
+
+  .text-xs-4 {
+    font-size: 16.66667%; }
+
+  .text-xs-5 {
+    font-size: 20.83333%; }
+
+  .text-xs-6 {
+    font-size: 25%; }
+
+  .text-xs-7 {
+    font-size: 29.16667%; }
+
+  .text-xs-8 {
+    font-size: 33.33333%; }
+
+  .text-xs-9 {
+    font-size: 37.5%; }
+
+  .text-xs-10 {
+    font-size: 41.66667%; }
+
+  .text-xs-11 {
+    font-size: 45.83333%; }
+
+  .text-xs-12 {
+    font-size: 50%; } }
+@media (min-width: 768px) {
+  .text-xs-3 {
+    font-size: 40%; }
+
+  .text-xs-4 {
+    font-size: 53.33333%; }
+
+  .text-xs-5 {
+    font-size: 66.66667%; }
+
+  .text-xs-6 {
+    font-size: 80%; }
+
+  .text-xs-7 {
+    font-size: 93.33333%; }
+
+  .text-xs-8 {
+    font-size: 106.66667%; }
+
+  .text-xs-9 {
+    font-size: 120.0%; }
+
+  .text-xs-10 {
+    font-size: 133.33333%; }
+
+  .text-xs-11 {
+    font-size: 146.66667%; }
+
+  .text-xs-12 {
+    font-size: 160%; }
+
+  .text-sm-3 {
+    font-size: 25%; }
+
+  .text-sm-4 {
+    font-size: 33.33333%; }
+
+  .text-sm-5 {
+    font-size: 41.66667%; }
+
+  .text-sm-6 {
+    font-size: 50%; }
+
+  .text-sm-7 {
+    font-size: 58.33333%; }
+
+  .text-sm-8 {
+    font-size: 66.66667%; }
+
+  .text-sm-9 {
+    font-size: 75%; }
+
+  .text-sm-10 {
+    font-size: 83.33333%; }
+
+  .text-sm-11 {
+    font-size: 91.66667%; }
+
+  .text-sm-12 {
+    font-size: 100%; } }
+@media (min-width: 992px) {
+  .text-xs-3 {
+    font-size: 51.66667%; }
+
+  .text-xs-4 {
+    font-size: 68.88889%; }
+
+  .text-xs-5 {
+    font-size: 86.11111%; }
+
+  .text-xs-6 {
+    font-size: 103.33333%; }
+
+  .text-xs-7 {
+    font-size: 120.55556%; }
+
+  .text-xs-8 {
+    font-size: 137.77778%; }
+
+  .text-xs-9 {
+    font-size: 155.0%; }
+
+  .text-xs-10 {
+    font-size: 172.22222%; }
+
+  .text-xs-11 {
+    font-size: 189.44444%; }
+
+  .text-xs-12 {
+    font-size: 206.66667%; }
+
+  .text-sm-3 {
+    font-size: 32.29167%; }
+
+  .text-sm-4 {
+    font-size: 43.05556%; }
+
+  .text-sm-5 {
+    font-size: 53.81944%; }
+
+  .text-sm-6 {
+    font-size: 64.58333%; }
+
+  .text-sm-7 {
+    font-size: 75.34722%; }
+
+  .text-sm-8 {
+    font-size: 86.11111%; }
+
+  .text-sm-9 {
+    font-size: 96.875%; }
+
+  .text-sm-10 {
+    font-size: 107.63889%; }
+
+  .text-sm-11 {
+    font-size: 118.40278%; }
+
+  .text-sm-12 {
+    font-size: 129.16667%; }
+
+  .text-md-3 {
+    font-size: 25%; }
+
+  .text-md-4 {
+    font-size: 33.33333%; }
+
+  .text-md-5 {
+    font-size: 41.66667%; }
+
+  .text-md-6 {
+    font-size: 50%; }
+
+  .text-md-7 {
+    font-size: 58.33333%; }
+
+  .text-md-8 {
+    font-size: 66.66667%; }
+
+  .text-md-9 {
+    font-size: 75%; }
+
+  .text-md-10 {
+    font-size: 83.33333%; }
+
+  .text-md-11 {
+    font-size: 91.66667%; }
+
+  .text-md-12 {
+    font-size: 100%; } }
+@media (min-width: 1200px) {
+  .text-xs-3 {
+    font-size: 62.5%; }
+
+  .text-xs-4 {
+    font-size: 83.33333%; }
+
+  .text-xs-5 {
+    font-size: 104.16667%; }
+
+  .text-xs-6 {
+    font-size: 125%; }
+
+  .text-xs-7 {
+    font-size: 145.83333%; }
+
+  .text-xs-8 {
+    font-size: 166.66667%; }
+
+  .text-xs-9 {
+    font-size: 187.5%; }
+
+  .text-xs-10 {
+    font-size: 208.33333%; }
+
+  .text-xs-11 {
+    font-size: 229.16667%; }
+
+  .text-xs-12 {
+    font-size: 250%; }
+
+  .text-sm-3 {
+    font-size: 39.0625%; }
+
+  .text-sm-4 {
+    font-size: 52.08333%; }
+
+  .text-sm-5 {
+    font-size: 65.10417%; }
+
+  .text-sm-6 {
+    font-size: 78.125%; }
+
+  .text-sm-7 {
+    font-size: 91.14583%; }
+
+  .text-sm-8 {
+    font-size: 104.16667%; }
+
+  .text-sm-9 {
+    font-size: 117.1875%; }
+
+  .text-sm-10 {
+    font-size: 130.20833%; }
+
+  .text-sm-11 {
+    font-size: 143.22917%; }
+
+  .text-sm-12 {
+    font-size: 156.25%; }
+
+  .text-md-3 {
+    font-size: 30.24194%; }
+
+  .text-md-4 {
+    font-size: 40.32258%; }
+
+  .text-md-5 {
+    font-size: 50.40323%; }
+
+  .text-md-6 {
+    font-size: 60.48387%; }
+
+  .text-md-7 {
+    font-size: 70.56452%; }
+
+  .text-md-8 {
+    font-size: 80.64516%; }
+
+  .text-md-9 {
+    font-size: 90.72581%; }
+
+  .text-md-10 {
+    font-size: 100.80645%; }
+
+  .text-md-11 {
+    font-size: 110.8871%; }
+
+  .text-md-12 {
+    font-size: 120.96774%; }
+
+  .text-lg-3 {
+    font-size: 25%; }
+
+  .text-lg-4 {
+    font-size: 33.33333%; }
+
+  .text-lg-5 {
+    font-size: 41.66667%; }
+
+  .text-lg-6 {
+    font-size: 50%; }
+
+  .text-lg-7 {
+    font-size: 58.33333%; }
+
+  .text-lg-8 {
+    font-size: 66.66667%; }
+
+  .text-lg-9 {
+    font-size: 75%; }
+
+  .text-lg-10 {
+    font-size: 83.33333%; }
+
+  .text-lg-11 {
+    font-size: 91.66667%; }
+
+  .text-lg-12 {
+    font-size: 100%; } }

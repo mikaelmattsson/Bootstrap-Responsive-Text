@@ -1,0 +1,74 @@
+
+@mixin calc-text-column($index, $class, $type, $multiplier)
+    @if ($type == width) and ($index > 2)
+        .text-#{$class}-#{$index}
+            font-size: percentage(($index / $grid-columns) * $multiplier)
+   
+ 
+
+
+// [converter] This is defined recursively in LESS, but Sass supports real loops
+@mixin loop-text-columns($columns, $class, $type, $multiplier)
+    @for $i from 0 through $columns
+        @include calc-text-column($i, $class, $type, $multiplier)
+ 
+
+
+
+// Create text for specific class
+@mixin make-text($class, $multiplier: 1)
+    @include loop-text-columns($grid-columns, $class, width, $multiplier)
+
+
+
+
+@include make-text(xs)
+
+
+//Supersmall
+@media (max-width: $screen-sm-min * .75)
+    @include make-text(xs, 0.75 )
+
+//Supersmall
+@media (max-width: $screen-sm-min * .5)
+    @include make-text(xs, 0.5 )
+
+
+
+// Small text
+//
+// Columns, offsets, pushes, and pulls for the small device range, from phones
+// to tablets.
+
+@media (min-width: $screen-sm-min)
+    @include make-text(xs, $screen-sm-min / $screen-xs-min)
+    @include make-text(sm)
+    
+
+
+
+// Medium text
+//
+// Columns, offsets, pushes, and pulls for the desktop device range.
+
+@media (min-width: $screen-md-min)
+    @include make-text(xs, $screen-md-min / $screen-xs-min)
+    @include make-text(sm, $screen-md-min / $screen-sm-min)
+    @include make-text(md)
+
+
+
+// Large text
+//
+// Columns, offsets, pushes, and pulls for the large desktop device range.
+
+@media (min-width: $screen-lg-min)
+    @include make-text(xs, $screen-lg-min / $screen-xs-min)
+    @include make-text(sm, $screen-lg-min / $screen-sm-min)
+    @include make-text(md, $screen-lg-min / $screen-md-min)
+    @include make-text(lg)
+    
+    
+    
+
+
